@@ -21,4 +21,7 @@ console.log(com);
 function mul(a, b) {
     return a * b;
 }
-console.log(mul(2, 3));
+console.log(mul(2, 2));
+var words = [1, 2];
+words = ["tayo", 234];
+console.log(words);

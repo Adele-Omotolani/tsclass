@@ -24,12 +24,12 @@ console.log(com);
 // let change: [string | string | string | number | number] = ["tolani","olamide", "tayo",1, 2];
 // console.log(change);
 
-
-function mul(a:number, b:number): number {
+function mul(a:number,b:number):number{
     return a * b
-}console.log(mul(2,3));
+}console.log(mul(2,2));
 
 
-
-
+let words:Array<string | number> = [1,2]
+words = ["tayo",234]
+console.log(words);
 export {}
